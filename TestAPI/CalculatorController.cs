@@ -21,7 +21,7 @@ namespace MyApp.Namespace
             return result;
         }
         [HttpGet]
-        public decimal Multiply(decimal num1, decimal num2)
+        public decimal Multi(decimal num1, decimal num2)
         {  
             decimal result = num1 * num2;
             return result;
